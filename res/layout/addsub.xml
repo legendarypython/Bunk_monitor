@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#330000">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="enter the subject name here"
+        android:textColor="#999999"
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+
+    </EditText>
+
+    <Button
+        android:textColor="#999999"
+        
+        android:id="@+id/b1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="Add Subject" />
+    <Button
+        android:textColor="#999999"
+        android:layout_marginTop="10dp"
+        android:id="@+id/b2"
+        android:visibility="gone" 
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="CONFIRM" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="home" />
+
+    <Button
+        android:id="@+id/bview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+    
+</LinearLayout>
